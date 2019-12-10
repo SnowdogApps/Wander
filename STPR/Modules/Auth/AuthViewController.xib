@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthViewController" customModule="Wander" customModuleProvider="target">
+            <connections>
+                <outlet property="actionButton" destination="3k3-KY-j0l" id="1f2-7C-cTg"/>
+                <outlet property="buttonsHorizontalStack" destination="wxL-rz-MRW" id="1a2-NU-uea"/>
+                <outlet property="emailTextField" destination="6g2-ek-KfE" id="eGo-a2-2I7"/>
+                <outlet property="logoImageView" destination="hpw-3B-p6G" id="TTE-sX-fYs"/>
+                <outlet property="passwordTextField" destination="eth-7h-POy" id="Z5X-e2-oZz"/>
+                <outlet property="playAsGuestButton" destination="EZL-X5-juV" id="Zln-rD-165"/>
+                <outlet property="privacyButton" destination="WnY-pp-l6V" id="0HC-eu-KTt"/>
+                <outlet property="privacySwitch" destination="LP8-R4-pr6" id="FyG-rd-3mj"/>
+                <outlet property="privacyView" destination="IJ9-E2-mbM" id="CcP-Ed-Wsm"/>
+                <outlet property="resetPasswordButton" destination="Jrr-gD-nBV" id="39l-rR-gch"/>
+                <outlet property="secondActionButton" destination="a6b-JB-ftT" id="aO6-pG-kuo"/>
+                <outlet property="termsButton" destination="6p4-P7-3sz" id="ITu-o3-9vq"/>
+                <outlet property="termsSwitch" destination="hol-82-MwJ" id="43H-28-bf6"/>
+                <outlet property="termsView" destination="vu5-FU-RLa" id="IXN-v5-tZK"/>
+                <outlet property="titleLabel" destination="QGp-HF-NY3" id="UMN-5c-Ynt"/>
+                <outlet property="usernameTextField" destination="Pqs-YT-3XO" id="V3S-31-yKW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingBg" translatesAutoresizingMaskIntoConstraints="NO" id="bBV-PJ-cqj">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mO8-dz-2Rq">
+                    <rect key="frame" x="52" y="178.5" width="310.5" height="549"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hpw-3B-p6G">
+                            <rect key="frame" x="0.0" y="0.0" width="310.5" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" priority="750" constant="100" id="PHh-er-sgt"/>
+                                <constraint firstAttribute="width" priority="750" constant="100" id="RZ0-fB-Ugp"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGp-HF-NY3">
+                            <rect key="frame" x="0.0" y="108" width="310.5" height="41"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="K4h-Oi-kFq">
+                            <rect key="frame" x="0.0" y="157" width="310.5" height="172"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6g2-ek-KfE" customClass="CustomTextField" customModule="Wander" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="310.5" height="52"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="moA-fp-ABu"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eth-7h-POy" customClass="CustomTextField" customModule="Wander" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="60" width="310.5" height="52"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="vEJ-WO-QZm"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pqs-YT-3XO" customClass="CustomTextField" customModule="Wander" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="120" width="310.5" height="52"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="W2X-Mb-2x1"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d0c-1d-TYd">
+                            <rect key="frame" x="0.0" y="337" width="310.5" height="70"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="IJ9-E2-mbM">
+                                    <rect key="frame" x="0.0" y="0.0" width="310.5" height="31"/>
+                                    <subviews>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="760" verticalHuggingPriority="760" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LP8-R4-pr6">
+                                            <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            <connections>
+                                                <action selector="switchValueChanged" destination="-1" eventType="valueChanged" id="GUf-JA-qcO"/>
+                                            </connections>
+                                        </switch>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WnY-pp-l6V">
+                                            <rect key="frame" x="57" y="0.0" width="253.5" height="31"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="presentPrivacy" destination="-1" eventType="touchUpInside" id="VCd-Dp-tEW"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vu5-FU-RLa">
+                                    <rect key="frame" x="0.0" y="39" width="310.5" height="31"/>
+                                    <subviews>
+                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="760" verticalHuggingPriority="760" horizontalCompressionResistancePriority="760" verticalCompressionResistancePriority="760" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hol-82-MwJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
+                                            <connections>
+                                                <action selector="switchValueChanged" destination="-1" eventType="valueChanged" id="qKo-j8-Uyc"/>
+                                            </connections>
+                                        </switch>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6p4-P7-3sz">
+                                            <rect key="frame" x="57" y="0.0" width="253.5" height="31"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="presentTerms" destination="-1" eventType="touchUpInside" id="pb2-Cq-97u"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yxZ-nE-Ca6">
+                            <rect key="frame" x="0.0" y="415" width="310.5" height="134"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3k3-KY-j0l" customClass="FilledButton" customModule="Wander" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="310.5" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="aqz-Iy-Qbp"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="executeAction" destination="-1" eventType="touchUpInside" id="bxO-Mx-W9x"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6b-JB-ftT" customClass="BorderButton" customModule="Wander" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="52" width="310.5" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="sVU-re-mtH"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <connections>
+                                        <action selector="executeSecondAction" destination="-1" eventType="touchUpInside" id="9Ae-IW-r7y"/>
+                                    </connections>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="wxL-rz-MRW">
+                                    <rect key="frame" x="0.0" y="104" width="310.5" height="30"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrr-gD-nBV">
+                                            <rect key="frame" x="0.0" y="0.0" width="151" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="presentResetPasswordAlert" destination="-1" eventType="touchUpInside" id="bTq-si-exI"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZL-X5-juV">
+                                            <rect key="frame" x="159" y="0.0" width="151.5" height="30"/>
+                                            <state key="normal" title="Button"/>
+                                            <connections>
+                                                <action selector="playAsGuest" destination="-1" eventType="touchUpInside" id="peE-eJ-Vt2"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="mO8-dz-2Rq" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="Brs-fM-8WR"/>
+                <constraint firstAttribute="bottom" secondItem="bBV-PJ-cqj" secondAttribute="bottom" id="Ibi-8T-wYI"/>
+                <constraint firstItem="bBV-PJ-cqj" firstAttribute="left" secondItem="i5M-Pr-FkT" secondAttribute="left" id="OOK-W5-E5r"/>
+                <constraint firstItem="mO8-dz-2Rq" firstAttribute="width" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="3:4" id="QEK-dl-viO"/>
+                <constraint firstItem="mO8-dz-2Rq" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="QRE-ps-hld"/>
+                <constraint firstAttribute="right" secondItem="bBV-PJ-cqj" secondAttribute="right" id="S9u-jp-3dx"/>
+                <constraint firstItem="bBV-PJ-cqj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cDT-Lg-K8h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="714" y="89"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo" width="32" height="30"/>
+        <image name="onboardingBg" width="360" height="736"/>
+    </resources>
+</document>

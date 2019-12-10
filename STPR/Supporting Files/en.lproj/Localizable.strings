@@ -1,0 +1,107 @@
+/*
+  Localizable.strings
+  STPR
+
+  Created by Majid Jabrayilov on 9/24/19.
+  Copyright © 2019 Snowdog. All rights reserved.
+*/
+"continue" = "Continue";
+"next" = "Next";
+"level" = "Level";
+
+/* Onboarding */
+"onboardingPage0Title" = "Welcome to Wander!";
+"onboardingPage1Title" = "Start mission";
+"onboardingPage2Title" = "Complete tasks";
+"onboardingPage3Title" = "Earn coins & XP";
+"onboardingPage4Title" = "Play anywhere";
+"onboardingPage5Title" = "Don’t see your city?";
+"galileoTitle" = "Connected to Galileo";
+
+"onboardingPage0SubTitle" = "Let us show you how to use this app.";
+"onboardingPage1SubTitle" = "Select a mission from the list or map and start exploring your city!";
+"onboardingPage2SubTitle" = "You may need to reach a location, do a puzzle or answer a question to unlock the next task.";
+"onboardingPage3SubTitle" = "Earn coins and XP for completing tasks and missions to level up and unlock more missions!";
+"onboardingPage4SubTitle" = "Wander is in many cities around the world and growing.";
+"onboardingPage5SubTitle" = "You can create and submit your own missions to Wander app from Profile > Settings!";
+"galileoSubTitle" = "You have the best positioning performance thanks to Galileo!";
+
+"start" = "Start your journey!";
+
+/* Missions module */
+"startMission" = "Start Mission";
+"readMore" = "Read more";
+"missionFinishedTitle" = "Mission already finished!";
+"missionFinishedSubtitle" = "You have finished this mission already. \nPlease select another one";
+"back" = "Go back";
+"coins" = "Coins";
+"exp" = "XP";
+"minutes" = "min";
+"meters" = "m";
+"kilometers" = "km";
+"distance" = "Distance: ";
+"time" = "Duration: ";
+"task" = "Task";
+"social" = "Social";
+"missions" = "Missions";
+"map" = "Map";
+"profile" = "Profile";
+"myProfile" = "My profile";
+"editProfile" = "Edit profile";
+"abandon" = "Abandon";
+"email" = "Email";
+"yourEmail" = "Your e-mail here";
+"username" = "Username";
+"yourUsername" = "Your username here";
+"password" = "Password";
+"yourPassword" = "Enter your new password here";
+"login" = "Login";
+"signUp" = "Register";
+"acceptPrivacy" = "I have read and agree to Wander’s privacy policy.";
+"privacyUnderline" = "Privacy policy";
+"acceptTerms" = "I accept the terms and conditions.";
+"termsUnderline" = "Terms and conditions";
+"alreadyHaveAccount" = "Login";
+"resetPassword" = "Reset password";
+"resetViaEmail" = "Please enter your email to reset password";
+"cancel" = "Cancel";
+"save" = "Save";
+"reset" = "Reset";
+"passwordResetMailSent" = "Please check your email to reset the password";
+"invalidEmail" = "Invalid email";
+"invalidPassword" = "Your password must be at least 8 characters long";
+"invalidUsername" = "Your username must be at least 4 characters long";
+"signUpTitle" = "Registration";
+"loginTitle" = "Login";
+"ok" = "OK";
+"alertSuccess" = "Nice work!";
+"tryAgain" = "Try again";
+"dismiss" = "Dismiss";
+"super" = "Super!";
+"congrats" = "Congrats on completing the %@ mission!";
+"totalEarned" = "Total XP earned: ";
+"missionSummary" = "Mission Summary";
+"playAsGuest" = "Play as guest";
+"anonymous" = "Anonymous";
+"task" = "Task";
+"selectMissionTitle" = "Select new mission";
+"selectMissionSubtitle" = "You have no mission active right now. \nTap here to head into mission details";
+"oops" = "Oops!";
+"somethingWentWrong" = "Something went wrong, please try again in a while.";
+"retry" = "Retry";
+"myAccount" = "My Account";
+"selectLanguage" = "Select your language";
+"aboutGSS" = "About Galileo Satelite System";
+"settings" = "Settings";
+"aboutUs" = "About us";
+"aboutSnowdog" = "About Snowdog";
+"snowdogInfo" = "Wander is built by SNOW.DOG, a team of creative and curious people with deep knowledge of new technologies. We have a passion for building the most innovative projects and creating unique and seamless user experiences. We are constantly learning, growing and supporting the open source community. Our goal is to enhance your local business’s value and help your brand evolve with the transforming travel landscape.\n\n\n We have a highly skilled development team, as well as a cutting-edge research and development team that is working in robotics, Machine Learning, AR and IoT. Our R&D projects are aimed to navigate the future and help our clients create ideas that align with the latest technologies.";
+"aboutMGAComp" = "About MyGalileoApp competition";
+"galileoSatelites" = "Galileo Satellites";
+"galileoSatelitesFull" = "Galileo is the European Global Navigation Satellite System (GNSS) under civilian control, providing a range of positioning, navigation and timing services to users worldwide. Galileo offers benefits for many European services, businesses and users. For example, users can know their exact position with greater precision thanks to the multi- constellation of receivers that Galileo add to. Galileo’s dual frequency capability offers significant advantages in terms of achievable accuracy, but also in terms of improved resistance to jamming. Last but not least, due to the ever-growing importance and dependence of satellite navigation applications a potential disruption of a satellite navigation service is unacceptable. Galileo ensures independence that is important to the EU economy, securing the availability of those applications and services.\nIn short, Galileo boosts European innovation, contributing to the creation of many new products and services, creating jobs and allowing Europe to own a greater share of the global market for added value services.\nHow does satellite navigation work? Global Navigation Satellite Systems send signals to receivers, giving time and positioning information to users. To get an accurate measurement of your time and position, a minimum of four satellites in view are needed. The number of satellites in view of the user’s receiver is what determines how accurately time and location can be worked out. The more satellites in view, the more precise the information received will be.";
+"myGalileoAppFull" = "The European GNSS Agency’s (GSA) MyGalileoApp prize competition challenges developers to design, develop, test and launch a mobile application that takes advantage of the increased accuracy and availability provided by Galileo. The winners take home up to EUR 100,000. Whether it be in the area of augmented reality, geo- marketing, smart navigation, social networking or otherwise – the GSA wants to help you take your idea from concept to reality.\nThe MyGalileoApp prize Competition challenges to launch a mobile application that provides a position and/or time fix using a Galileo-enabled smartphone equipped with Android /iOS operating system. It must also demonstrate how the increased accuracy/availability provided by Galileo within a multi-constellation/multi- frequency solution adds value to the application.";
+"finalFootnote" = "Developed with ❤️ in Poznań, Poland\nSnowdog 2019";
+"pl" = "Polish";
+"en" = "English";
+"logout" = "Logout";
+"mailComposerError" = "It's impossible to send an e-mail from your device, because you don't have a mail app.\nIf you wish to contact us, please send an e-mail to\ngalileo@wanderapp.eu";

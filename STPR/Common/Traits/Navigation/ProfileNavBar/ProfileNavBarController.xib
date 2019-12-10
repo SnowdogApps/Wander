@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileNavBarController" customModule="STPR" customModuleProvider="target">
+            <connections>
+                <outlet property="logoLabel" destination="U4k-ZB-vEl" id="8t4-bR-AdQ"/>
+                <outlet property="navigationBarContainer" destination="uKf-nF-Ss3" id="uBi-vg-nWp"/>
+                <outlet property="navigationViewContainer" destination="1E9-SW-G1D" id="gDd-sb-O7c"/>
+                <outlet property="settingsButton" destination="4Ep-od-FPX" id="POo-b9-7CV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKf-nF-Ss3">
+                    <rect key="frame" x="0.0" y="44" width="414" height="76"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S T P R" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4k-ZB-vEl">
+                            <rect key="frame" x="169" y="23.5" width="76.5" height="29"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ep-od-FPX">
+                            <rect key="frame" x="376" y="17.5" width="30" height="41"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <state key="normal" title="⚙️"/>
+                            <connections>
+                                <action selector="openSettings:" destination="-1" eventType="touchUpInside" id="sbY-xj-mxA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="U4k-ZB-vEl" firstAttribute="centerX" secondItem="uKf-nF-Ss3" secondAttribute="centerX" id="8f5-V2-Nma"/>
+                        <constraint firstAttribute="height" constant="76" id="Bew-If-Wb1"/>
+                        <constraint firstItem="U4k-ZB-vEl" firstAttribute="centerY" secondItem="uKf-nF-Ss3" secondAttribute="centerY" id="H3R-kk-ggT"/>
+                        <constraint firstAttribute="trailing" secondItem="4Ep-od-FPX" secondAttribute="trailing" constant="8" id="bEa-8D-dPG"/>
+                        <constraint firstItem="4Ep-od-FPX" firstAttribute="centerY" secondItem="U4k-ZB-vEl" secondAttribute="centerY" id="p3V-98-abq"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1E9-SW-G1D">
+                    <rect key="frame" x="0.0" y="120" width="414" height="742"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1E9-SW-G1D" firstAttribute="top" secondItem="uKf-nF-Ss3" secondAttribute="bottom" id="0ry-rX-u0l"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1E9-SW-G1D" secondAttribute="trailing" id="5lZ-bc-gRT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1E9-SW-G1D" secondAttribute="bottom" id="9Wa-96-y0T"/>
+                <constraint firstItem="1E9-SW-G1D" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ifb-UE-nKb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uKf-nF-Ss3" secondAttribute="trailing" id="UXL-Q6-OYb"/>
+                <constraint firstItem="uKf-nF-Ss3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="VlC-qA-BKG"/>
+                <constraint firstItem="uKf-nF-Ss3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jwT-Nz-EA3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
