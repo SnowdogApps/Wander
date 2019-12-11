@@ -2,8 +2,10 @@
 
 ## Contributing
 
-We love pull requests from everyone. By participating in this project, you
-agree to abide by the Wander App code of conduct.
+We have some stuff to do. It's all listed inside the *Issues* tab. Feel free to take a look around and see if you can solve problem or two.
+If you believe that our app needs improvement - submit an issue or a feature request.  
+
+We love pull requests from everyone. By participating in this project, you agree to abide by the Wander App code of conduct.
 
 Harassment in code and discussion or violation of physical boundaries is completely unacceptable anywhere in Wander App project codebases, issue trackers, chatrooms, mailing lists, meetups, and other events. Violators will be warned by the core team. Repeat violations will result in being blocked or banned by the core team at or before the 3rd violation.
 

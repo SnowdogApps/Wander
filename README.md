@@ -1,13 +1,16 @@
 <p align="center">
+  <h1>Wander App</h1>
+</p>
+
+<p align="center">
     <img src="Logo.gif" width="400" max-width="90%" alt="Wander Logo" />
 </p>
 
-# Wander App
-
 <p align="center">
     <img src="https://img.shields.io/badge/Swift-5.1-orange.svg?style=flat" />
-    <img src="https://img.shields.io/badge/iOS-12.0+-informational.svg?style=flat" />
+    <img src="https://img.shields.io/badge/iOS-13.0+-informational.svg?style=flat" />
     <img src="https://img.shields.io/badge/Updated-10.12.2019-red.svg?style=flat" />
+    <img src="https://img.shields.io/badge/Release-1.1.0-critical.svg?style=flat" />
 </p>
 
 <p align="center">
@@ -22,20 +25,12 @@
 Welcome to **WanderApp** iOS project repository!
 Wander is re-inventing city travel with a curated selection of immersive stories covering the best city spots and sights.
 
+Download the app [here](https://apps.apple.com/us/app/wander-ar-city-guides/id1485244960?mt=8)
+
 You can find more [about the app and how we went open-source here](https://medium.com/snowdog-labs/wander-app-is-going-open-source-99f0e6a1933a).
 
 [Official page for the app](https://www.wanderapp.eu)
 
-
-## Licenses
-
-Pods used:
-pod 'Firebase'
-pod 'GoogleMaps'
-pod 'Firebase/Core'
-pod 'Firebase/Auth'
-pod 'Firebase/Firestore'
-pod 'Kingfisher'
 
 ##  Installation
 
